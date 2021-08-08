@@ -8,16 +8,17 @@ const idb = new qdb.table("isimler");
 module.exports = {
     name: "erkek",
     description: "Kullanıcıları Erkek Olarak Kaydetmenizi Sağlar",
+    // use opctions :) 
     options: [
         {
-            type: "USER",
+            type: "USER", // type user bc we are use user there xd
             name: "user",
             description: "Kullanıcı Belirtin",
-            required: true
+            required: true // u can turn false this doesn't matter 
             
         },
         {
-            type: "STRING",
+            type: "STRING", // simply type is type used like on mongoose model exp: userID: { type: String, default: "" or type boolean or number } and there is subcommand and subcommand group i can't explain to you yet xd
             name: "isim",
             description: "Kayıt Etmek İstediğiniz Adı Belirtin",
             required: false
