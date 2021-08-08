@@ -1,15 +1,14 @@
 {
-    "name": "djs",
+    "name": "discord-v13-register",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
-        "test": "nodemon index.js"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "author": "Lucy desu yo",
+    "license": "MIT",
     "dependencies": {
         "discord.js": "^13.0.1",
         "glob": "^7.1.7",
