@@ -14,7 +14,7 @@ module.exports = {
             type: "USER", // type user bc we are use user there xd
             name: "user",
             description: "Kullanıcı Belirtin",
-            required: true // u can turn false this doesn't matter 
+            required: true // u can turn false this doesn't matter (?)
             
         },
         {
